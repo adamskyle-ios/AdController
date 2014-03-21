@@ -84,7 +84,7 @@
 		5329036818DB6A2400DA4E84 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		53584D3C18DC4DCB004A6026 /* AdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdController.h; sourceTree = "<group>"; };
 		53584D3D18DC4DCB004A6026 /* AdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdController.m; sourceTree = "<group>"; };
-		53584D3F18DC58D5004A6026 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		53584D3F18DC58D5004A6026 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = DualAds/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +123,7 @@
 		5329030D18DB369200DA4E84 = {
 			isa = PBXGroup;
 			children = (
+				53584D3F18DC58D5004A6026 /* README.md */,
 				5329031F18DB369200DA4E84 /* DualAds */,
 				5329033E18DB369300DA4E84 /* DualAdsTests */,
 				5329031818DB369200DA4E84 /* Frameworks */,
@@ -169,7 +170,6 @@
 				5329032F18DB369200DA4E84 /* ViewController.m */,
 				53584D3C18DC4DCB004A6026 /* AdController.h */,
 				53584D3D18DC4DCB004A6026 /* AdController.m */,
-				53584D3F18DC58D5004A6026 /* README.md */,
 				5329033118DB369200DA4E84 /* Images.xcassets */,
 				5329032018DB369200DA4E84 /* Supporting Files */,
 			);

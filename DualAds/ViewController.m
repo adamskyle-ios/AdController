@@ -7,10 +7,7 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-
-@end
+#import "AdController.h"
 
 @implementation ViewController
 
@@ -18,6 +15,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    AdController *adController = [[AdController alloc] initWithReferenceView:self.view];
+    
+    //setting location to bottom
+    adController.bannerLocation = kBannerLocation_Top;
+    
+    [self.view addSubview:[adController bannerViewWithRootViewController:self]];
 }
 
 - (void)didReceiveMemoryWarning

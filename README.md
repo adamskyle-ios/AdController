@@ -11,7 +11,7 @@ This is a very simple AdMob banner location controller for iOS. Simply set the b
 
 ## Usage
 
-> #import "AdViewController"
+> import "AdViewController"
 > //when you want the ViewController to show the banner 
 > AdController *adController = [[AdController alloc] initWithReferenceView:self.view];
 > //Optional. setting location to bottom. Default is top.

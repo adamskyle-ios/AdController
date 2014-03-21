@@ -14,12 +14,11 @@ typedef NS_ENUM (NSInteger, kBannerLocation) {
     kBannerLocation_Bottom,
 };
 
-#define MY_BANNER_ID @"ca-app-pub-1814754795806833/3862530303"
+#warning make sure you use a correct AdMob Banner ID.
+#define MY_BANNER_ID @"yourbanneridgoeshere"
 
 @interface AdController : NSObject
 
-
-// @description Bannerlocation on the iPhone screen
 @property (nonatomic) kBannerLocation bannerLocation;
 
 //designated initialiser

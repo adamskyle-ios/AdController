@@ -19,9 +19,11 @@
     AdController *adController = [[AdController alloc] initWithReferenceView:self.view];
     
     //setting location to bottom
-    adController.bannerLocation = kBannerLocation_Top;
+    adController.bannerLocation = kBannerLocation_Bottom;
     
     [self.view addSubview:[adController bannerViewWithRootViewController:self]];
+    
+    adController.bannerView.adSize = kGADAdSizeMediumRectangle;
 }
 
 - (void)didReceiveMemoryWarning

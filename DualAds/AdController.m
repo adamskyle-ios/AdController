@@ -39,7 +39,8 @@
     
     [bannerView loadRequest:[GADRequest request]];
     
-    return bannerView;
+    self.bannerView = bannerView;
+    return self.bannerView;
 }
 
 - (CGRect)createAdBannerFrame

@@ -19,6 +19,7 @@ typedef NS_ENUM (NSInteger, kBannerLocation) {
 
 @interface AdController : NSObject
 
+@property (nonatomic, strong) GADBannerView *bannerView;
 @property (nonatomic) kBannerLocation bannerLocation;
 
 //designated initialiser

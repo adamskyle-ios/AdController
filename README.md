@@ -11,22 +11,20 @@ This is a very simple AdMob banner location controller for iOS. Simply set the b
 
 ## Usage
 
-> import "AdViewController"
-> //when you want the ViewController to show the banner 
-> AdController *adController = [[AdController alloc] initWithReferenceView:self.view];
-> //Optional. setting location to bottom. Default is top.
-> adController.bannerLocation = kBannerLocation_Bottom;
-> //add banner to the view
-> [self.view addSubview:[adController bannerViewWithRootViewController:self]];
+	import "AdViewController"
+	//when you want the ViewController to show the banner 
+	AdController *adController = [[AdController alloc] initWithReferenceView:self.view];
+	//Optional. setting location to bottom. Default is top.
+	adController.bannerLocation = kBannerLocation_Bottom;
+	//add banner to the view
+	[self.view addSubview:[adController bannerViewWithRootViewController:self]];
 
 that's all folks
 
-If you want to acces GADBannerView properties, you're on your own for now. This is a very basic implementation.
+GADBannerViewProperties are accessible.
 
 ## Roadmap
 
 I'm not sure I will expand this class, because ad implementation in its current state is as easy as it gets. Creating a robust class that handles the implementation can make things more complicated than they need be. However, I think this can be improved AND stay flexible with the following roadmap:
 
 - Handle mediation between AdMob and iAd
-- Make the AdController GADBannerView properties accessable
-
